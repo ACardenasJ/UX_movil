@@ -113,6 +113,7 @@
         android:layout_width="200dp"
         android:layout_height="49dp"
         android:text="Registrse"
+        android:backgroundTint="@color/button_color"
         tools:layout_editor_absoluteX="107dp"
         tools:layout_editor_absoluteY="647dp"
         tools:ignore="MissingConstraints" />

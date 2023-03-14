@@ -11,19 +11,72 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/main_color"
-
         android:text="@string/title"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="171dp"
         tools:layout_editor_absoluteY="73dp" />
 
-    <Button
-        android:id="@+id/button_second"
+    <TextView
+        android:id="@+id/textview_second2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Alarma Clasica"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Seleccione el tipo de alarma que desea agregar:"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_second" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/classicAlarm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_second"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <Button
+        android:id="@+id/button_voz"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:text="@string/voiceAlarm"
+        android:backgroundTint="@color/button_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_second"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <Button
+        android:id="@+id/button_per"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:text="@string/CustomdAlarm"
+        android:backgroundTint="@color/button_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_second"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/button_lista"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:text="@string/listOfAlarms"
+        android:backgroundTint="@color/button_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_second"
+        app:layout_constraintVertical_bias="0.633" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,4 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title">AlarmiDani</string>
     <string name="classicAlarm">Alarma Clásica</string>
+    <string name="CustomdAlarm">Alarma Personalizada</string>
+    <string name="voiceAlarm">Alarma con Voz</string>
+    <string name="listOfAlarms">Lista de alarmas</string>
 </resources>
