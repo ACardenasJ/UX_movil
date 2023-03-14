@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthFragment">
+
+    <TextView
+        android:id="@+id/textview_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/main_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/textview_second2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Alarma Voz"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/textview_fecha_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Seleccione la Fecha de Inicio"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textview_cantidad_dias_repite"
+        android:layout_width="328dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="28dp"
+        android:text="Escriba la cantidad de semnas que se repita la alrma"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="329dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <ImageView
+        android:id="@+id/imageViewYouTYube"
+        android:layout_width="78dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="196dp"
+        android:src="@drawable/logoyoutube"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <ImageView
+        android:id="@+id/imageViewHI"
+        android:layout_width="78dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/calendario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/textview_Sonido"
+        android:layout_width="328dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:text="Seleccione el tipo de sonido que desea escuchar cuando la alarma suene:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <ImageView
+        android:id="@+id/imageMicrofone"
+        android:layout_width="79dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="76dp"
+        android:src="@drawable/microfone"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <TextView
+        android:id="@+id/textview_hora_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Seleccione la fecha que finaliza"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <ImageView
+        android:id="@+id/imageViewFI"
+        android:layout_width="78dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/calendario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
