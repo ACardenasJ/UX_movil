@@ -6,12 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/base"
+        android:textColor="@color/main_color"
 
         android:text="@string/title"
         tools:ignore="MissingConstraints"
@@ -69,21 +68,23 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:tooltipText="Ingrese el mismo nombre de usuario"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="363dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="363dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/title"
         android:inputType="textPersonName"
         android:tooltipText="Ingrese el email"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="426dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="426dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -103,17 +104,16 @@
         android:ems="10"
         android:inputType="textPassword"
         android:tooltipText="Ingrese el mismo Password"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="579dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="579dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonFirst"
         android:layout_width="200dp"
         android:layout_height="49dp"
         android:text="Registrse"
         tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="647dp" />
-
-
+        tools:layout_editor_absoluteY="647dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
