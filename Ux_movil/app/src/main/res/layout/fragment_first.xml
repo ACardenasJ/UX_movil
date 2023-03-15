@@ -64,45 +64,45 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:hint="ingrese el username"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:tooltipText="Ingrese el mismo nombre de usuario"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="363dp" />
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="371dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="286dp"
+        android:layout_height="38dp"
         android:ems="10"
         android:hint="ingrese el email"
         android:inputType="textPersonName"
         android:tooltipText="Ingrese el email"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="426dp" />
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="433dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="283dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="ingrese el password"
         android:inputType="textPassword"
         android:tooltipText="Password"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="486dp" />
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="483dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:hint="ingrese el password"
         android:inputType="textPassword"
@@ -115,12 +115,12 @@
 
     <Button
         android:id="@+id/buttonFirst"
-        android:layout_width="200dp"
-        android:layout_height="49dp"
+        android:layout_width="283dp"
+        android:layout_height="51dp"
         android:backgroundTint="@color/button_color"
         android:text="Registrse"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteY="623dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

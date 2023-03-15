@@ -26,6 +26,9 @@
         <action
             android:id="@+id/action_SecondFragment_to_FourthFragment"
             app:destination="@id/FourthFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_FivethFragment2"
+            app:destination="@id/FivethFragment" />
     </fragment>
     <fragment
         android:id="@+id/ThirdFragment"
@@ -46,6 +49,17 @@
 
         <action
             android:id="@+id/action_SecondFragment_to_ThirdFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FivethFragment"
+        android:name="com.example.uxmovil.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_fiveth">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FivethFragment"
             />
     </fragment>
 </navigation>

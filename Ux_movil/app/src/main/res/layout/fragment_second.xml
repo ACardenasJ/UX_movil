@@ -35,48 +35,48 @@
         android:text="@string/classicAlarm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_second"
-        app:layout_constraintVertical_bias="0.337" />
+        app:layout_constraintVertical_bias="0.334" />
 
     <Button
         android:id="@+id/button_voz"
         android:layout_width="254dp"
         android:layout_height="50dp"
-        android:text="@string/voiceAlarm"
         android:backgroundTint="@color/button_color"
+        android:text="@string/voiceAlarm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_second"
-        app:layout_constraintVertical_bias="0.782" />
+        app:layout_constraintVertical_bias="0.607" />
 
     <Button
         android:id="@+id/button_per"
         android:layout_width="254dp"
         android:layout_height="50dp"
-        android:text="@string/CustomdAlarm"
         android:backgroundTint="@color/button_color"
+        android:text="@string/CustomdAlarm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_second"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.465" />
 
     <Button
         android:id="@+id/button_lista"
         android:layout_width="254dp"
         android:layout_height="50dp"
-        android:text="@string/listOfAlarms"
         android:backgroundTint="@color/button_color"
+        android:text="@string/listOfAlarms"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_second"
-        app:layout_constraintVertical_bias="0.633" />
+        app:layout_constraintVertical_bias="0.73" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
