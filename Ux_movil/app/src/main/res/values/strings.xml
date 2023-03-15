@@ -16,4 +16,14 @@
     <string name="listOfAlarms">Lista de alarmas</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="alarmas">
+        <item>Alarma Clásica1</item>
+        <item>Alarma Clásica2</item>
+        <item>Alarma con Voz1</item>
+        <item>Alarma con Voz Diana</item>
+        <item>Alarma con Personalizada5</item>
+        <item>Alarma con Personalizada Hola mundo</item>
+        <item>Alarma Clásica5</item>
+    </string-array>
 </resources>

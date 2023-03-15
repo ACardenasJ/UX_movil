@@ -10,57 +10,85 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/main_color"
-
+        android:layout_marginBottom="680dp"
         android:text="@string/title"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="73dp" />
+        android:textColor="@color/main_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cómo desea registrarse ?"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="137dp" />
+        android:text="Cómo desea registrarse?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desea ingrser manualmente?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_bias="0.347" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageViewG"
         android:layout_width="54dp"
         android:layout_height="55dp"
         android:src="@drawable/logogogle"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="284dp"
-        tools:layout_editor_absoluteY="185dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_bias="0.208" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageViewF"
         android:layout_width="54dp"
-        android:layout_height="55dp"
-        android:src="@drawable/logoins"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="286dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="54dp"
-        android:layout_height="55dp"
+        android:layout_height="53dp"
         android:src="@drawable/logofacebook"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="185dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_bias="0.21" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageViewT"
         android:layout_width="54dp"
         android:layout_height="55dp"
         android:src="@drawable/logotwiter"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="185dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <ImageView
+        android:id="@+id/imageViewI"
+        android:layout_width="54dp"
+        android:layout_height="55dp"
+        android:src="@drawable/logoins"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_bias="0.211" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -71,47 +99,27 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:tooltipText="Ingrese el mismo nombre de usuario"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="371dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="286dp"
-        android:layout_height="38dp"
-        android:ems="10"
-        android:hint="ingrese el email"
-        android:inputType="textPersonName"
-        android:tooltipText="Ingrese el email"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="433dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="283dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="ingrese el password"
-        android:inputType="textPassword"
-        android:tooltipText="Password"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="483dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintVertical_bias="0.384" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="286dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:hint="ingrese el password"
+        android:hint="Repita el Password"
         android:inputType="textPassword"
-        android:tooltipText="Ingrese el mismo Password"
+        android:tooltipText="Repita el Password"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="550dp" />
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintVertical_bias="0.666" />
 
     <Button
         android:id="@+id/buttonFirst"
@@ -119,8 +127,41 @@
         android:layout_height="51dp"
         android:backgroundTint="@color/button_color"
         android:text="Registrse"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="623dp" />
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintVertical_bias="0.785" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="ingrese el password"
+        android:inputType="textPassword"
+        android:tooltipText="Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="ingrese el email"
+        android:inputType="textPersonName"
+        android:tooltipText="Ingrese el email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintVertical_bias="0.474" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

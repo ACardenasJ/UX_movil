@@ -7,11 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.uxmovil.databinding.FragmentSecondBinding
-import com.example.uxmovil.databinding.FragmentThirdBinding
+import com.example.uxmovil.databinding.FragmentSixthBinding
 
 
-class ThirdFragment : Fragment() {
-    private var _binding: FragmentThirdBinding? = null
+class SixthFragment : Fragment() {
+    private var _binding: FragmentSixthBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,7 +22,7 @@ class ThirdFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentThirdBinding.inflate(inflater, container, false)
+        _binding = FragmentSixthBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -31,7 +31,7 @@ class ThirdFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonConfirmar.setOnClickListener {
-            findNavController().navigate(R.id.action_ThirdFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_SixthFragment_to_SecondFragment)
         }
 
     }

@@ -8,58 +8,78 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.uxmovil.FirstFragment"
-        android:label="@string/first_fragment_label"
+        android:label="Principal"
         tools:layout="@layout/fragment_first">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.uxmovil.SecondFragment"
-        android:label="@string/second_fragment_label"
+        android:label="Menu"
         tools:layout="@layout/fragment_second">
         <action
-            android:id="@+id/action_SecondFragment_to_ThirdFragment2"
+            android:id="@+id/action_SecondFragment_to_ThirdFragment"
             app:destination="@id/ThirdFragment" />
         <action
-            android:id="@+id/action_SecondFragment_to_FourthFragment"
+            android:id="@+id/action_Second_to_Fourth"
             app:destination="@id/FourthFragment" />
         <action
-            android:id="@+id/action_SecondFragment_to_FivethFragment2"
+            android:id="@+id/action_SecondFragment_to_FivethFragment"
             app:destination="@id/FivethFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_SixthFragment"
+            app:destination="@id/SixthFragment" />
+
     </fragment>
+
     <fragment
         android:id="@+id/ThirdFragment"
-        android:name="com.example.uxmovil.SecondFragment"
-        android:label="@string/second_fragment_label"
+        android:name="com.example.uxmovil.ThirdFragment"
+        android:label="Alarma clasica"
         tools:layout="@layout/fragment_third">
-
         <action
-            android:id="@+id/action_SecondFragment_to_ThirdFragment"
-            />
+            android:id="@+id/action_ThirdFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+
     </fragment>
 
     <fragment
         android:id="@+id/FourthFragment"
-        android:name="com.example.uxmovil.SecondFragment"
-        android:label="@string/second_fragment_label"
+        android:name="com.example.uxmovil.FourthFragment"
+        android:label="Alarma con voz"
         tools:layout="@layout/fragment_fourth">
-
         <action
-            android:id="@+id/action_SecondFragment_to_ThirdFragment"
-            />
+            android:id="@+id/action_FourthFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
     </fragment>
 
     <fragment
         android:id="@+id/FivethFragment"
-        android:name="com.example.uxmovil.SecondFragment"
-        android:label="@string/second_fragment_label"
+        android:name="com.example.uxmovil.FivethFragment"
+        android:label="Alarma Personalizada"
         tools:layout="@layout/fragment_fiveth">
-
         <action
-            android:id="@+id/action_SecondFragment_to_FivethFragment"
-            />
+            android:id="@+id/action_FivethFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
     </fragment>
+
+    <fragment
+        android:id="@+id/SixthFragment"
+        android:name="com.example.uxmovil.SixthFragment"
+        android:label="Lista de  alarmas"
+        tools:layout="@layout/fragment_sixth">
+        <action
+            android:id="@+id/action_SixthFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+    </fragment>
+
+
 </navigation>

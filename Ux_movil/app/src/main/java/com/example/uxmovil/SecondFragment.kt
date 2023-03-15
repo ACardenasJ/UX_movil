@@ -32,16 +32,22 @@ class SecondFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonSecond.setOnClickListener {
+        binding.buttonClasica.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_ThirdFragment)
         }
 
         binding.buttonVoz.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FourthFragment)
+            findNavController().navigate(R.id.action_Second_to_Fourth)
         }
 
+
         binding.buttonPer.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FourthFragment)
+            findNavController().navigate(R.id.action_SecondFragment_to_FivethFragment)
+        }
+
+
+        binding.buttonLista.setOnClickListener {
+            findNavController().navigate(R.id.action_SecondFragment_to_SixthFragment)
         }
 
     }
